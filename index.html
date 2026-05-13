@@ -114,7 +114,6 @@ main { min-width: 0; }
 }
 
 .bio {
-  max-width: 62ch;
   margin-bottom: 56px;
 }
 .bio p {
@@ -122,6 +121,7 @@ main { min-width: 0; }
   line-height: 1.7;
   margin: 0 0 16px;
   color: var(--ink-soft);
+  max-width: 40em;
 }
 .bio p.lede-bio {
   font-family: var(--serif);
@@ -131,7 +131,7 @@ main { min-width: 0; }
   color: var(--ink);
   letter-spacing: -.005em;
   margin-bottom: 22px;
-  max-width: 44ch;
+  max-width: 28em;
 }
 .bio a {
   color: var(--ink);
@@ -248,8 +248,8 @@ a.badge:hover {
   padding-top: 36px;
   border-top: 1px solid var(--rule);
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 28px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
   align-items: center;
 }
 .affil { text-align: center; }
@@ -325,26 +325,10 @@ footer {
   <main>
     <p class="eyebrow">— About</p>
     <div class="bio">
-      <p class="lede-bio">
-        Hi, I'm Lovish! I am pursuing my PhD at <a href="https://ai.meta.com/research/" target="_blank">MSL, Meta</a>
-        and <a href="https://nlp.cs.ucl.ac.uk" target="_blank">UCL NLP</a>. My current focus is on
-        thinking models, reinforcement learning, and self-improvement.
-      </p>
-      <p>
-        In the past, I worked at <a href="https://research.google/locations/india/" target="_blank">Google Research India</a>
-        in the Machine Learning and Optimization Team with
-        <a href="https://www.prateekjain.org/" target="_blank">Prateek Jain</a> and
-        <a href="https://bsrinadh.github.io" target="_blank">Srinadh Bhojanapalli</a>
-        on inference-efficient machine learning and natural language processing.
-      </p>
-      <p>
-        I graduated with a B.Tech and M.Tech in Computer Science and Engineering from the
-        <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology, Delhi</a>.
-        I worked with <a href="https://www.cse.iitd.ac.in/~parags/" target="_blank">Parag Singla</a>,
-        <a href="https://www.cse.iitd.ac.in/~sayan/" target="_blank">Sayan Ranu</a>, and
-        <a href="https://www.cse.iitd.ac.in/~aseth/" target="_blank">Aaditeshwar Seth</a>
-        on a variety of research projects during my time there.
-      </p>
+      <p class="lede-bio">Hi, I'm Lovish! I'm a founding member at <a href="https://recursive.com" target="_blank">Recursive</a>. My research these days centers on reinforcement learning, self-improvement, and automating AI research.</p>
+      <p>Before that, I wrapped up my PhD at <a href="https://ai.meta.com/research/" target="_blank">MSL, Meta</a> and <a href="https://nlp.cs.ucl.ac.uk" target="_blank">UCL NLP</a> working with <a href="https://pontus.stenetorp.se" target="_blank">Pontus Stenetorp</a> and <a href="https://dieuwkehupkes.nl" target="_blank">Dieuwke Hupkes</a>. I did research on reinforcement learning, evaluations, and Meta's large language models.</p>
+      <p>Earlier, I spent time at <a href="https://research.google/locations/india/" target="_blank">Google Research India</a> in the Machine Learning and Optimization Team, working alongside <a href="https://www.prateekjain.org/" target="_blank">Prateek Jain</a> and <a href="https://bsrinadh.github.io" target="_blank">Srinadh Bhojanapalli</a> on inference-efficient machine learning and natural language processing.</p>
+      <p>I earned my B.Tech and M.Tech in Computer Science and Engineering from the <a href="https://home.iitd.ac.in/" target="_blank">Indian Institute of Technology, Delhi</a>, where I had the good fortune of working with <a href="https://www.cse.iitd.ac.in/~parags/" target="_blank">Parag Singla</a>, <a href="https://www.cse.iitd.ac.in/~sayan/" target="_blank">Sayan Ranu</a>, and <a href="https://www.cse.iitd.ac.in/~aseth/" target="_blank">Aaditeshwar Seth</a> on a range of research projects.</p>
     </div>
 
     <h2 class="section-title">Selected publications</h2>
@@ -446,7 +430,8 @@ footer {
     <p class="note">* — equal contribution</p>
 
     <div class="affiliations">
-      <div class="affil"><img src="images/meta.png" alt="Meta"><div class="affil-name">AI at Meta</div></div>
+      <div class="affil"><img src="images/recursive_logo_dark.png" alt="Recursive"><div class="affil-name">Recursive</div></div>
+      <div class="affil"><img src="images/meta.png" alt="Meta"><div class="affil-name">MSL</div></div>
       <div class="affil"><img src="images/uclnlp.png" alt="UCL NLP"><div class="affil-name">UCL</div></div>
       <div class="affil"><img src="images/googleresearch.png" alt="Google Research"><div class="affil-name">Google Research</div></div>
       <div class="affil"><img src="images/iitd.png" alt="IIT Delhi"><div class="affil-name">IIT Delhi</div></div>
